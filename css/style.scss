@@ -1866,6 +1866,10 @@ body.splat-toggle .splat {
         font-size: 50px;
         line-height: 55px;
     }
+    .time_small {
+        @extend .time;
+        color: black !important;
+    }
     .time_large {
         @extend .time;
         font-size: 80px;
@@ -1907,6 +1911,11 @@ body.splat-toggle .splat {
     font-family: Arial, sans-serif;
     text-align: center;
     margin-bottom: 0;
+}
+
+.time-title-small {
+    @extend .time-title;
+    color: black;
 }
 
 .time-title-large {
